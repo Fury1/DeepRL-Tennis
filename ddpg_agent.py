@@ -78,7 +78,7 @@ class Agent():
         self.actor_local.train()
         if add_noise:
             # Add some noise to each agent's actions
-            # Assists in exploration during the begining of training
+            # Assists in exploration during the begining of episode training
             for i, j in enumerate(action):
                 action[i] += self.noise.sample()
         

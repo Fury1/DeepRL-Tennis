@@ -62,13 +62,13 @@ LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
 UPDATE_EVERY = 2        # update frequency from timesteps
 NOISE_DECAY = 1e-3      # rate of noise decay (lessens noise in actions every timestep)
-n_episodes = 2000
+n_episodes = 1000
 max_t = 1000
 ```
 
 #### Training Results
 
-As shown the following plot demonstrates that the environment was solved in 900 episodes based on an average score taken over all agents (2) over 100 consecutive episodes (Score of > +0.5).
+As shown the following plot demonstrates that the environment was solved in 900 episodes based on a max score taken over all agents (2) over 100 consecutive episode average. (Score of > +0.5).
 
 Training progress per episode:
 
