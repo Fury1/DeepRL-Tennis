@@ -62,7 +62,7 @@ LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
 UPDATE_EVERY = 2        # update frequency from timesteps
 NOISE_DECAY = 1e-3      # rate of noise decay (lessens noise in actions every timestep)
-n_episodes = 2000
+n_episodes = 1000
 max_t = 1000
 ```
 
