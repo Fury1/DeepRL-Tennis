@@ -75,6 +75,7 @@ Training progress per episode:
 ![Training Plot](Images/training-plot.png)
 
 ![Environment Solved](Images/environment-solved-status.png)
+**Note**: "Agent Average Score" should read "Agent *MAX* Score" to reflect implementation code above.
 
 The plot demonstrates that training scores peaked around 850 episodes and oscillated thereafter. After physically viewing the best trained model inference results the oscillations seem normal for this environment and model's training parameters.
 
